@@ -1,0 +1,27 @@
+\usepackage{listings}
+\usepackage{color}
+
+
+
+\lstset{ %
+	language=python,
+	numbers=left,
+	frame=single,
+	showstringspaces=true,
+        basicstyle=\ttfamily,
+       	keywordstyle=\color{blue}\ttfamily\textbf,
+	identifierstyle=\color{magenta}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{cyan}\ttfamily\textit
+}
+
+
+
+\noindent Here is a code snippet in Python:
+ 
+\begin{lstlisting}
+# Hello world
+def Hello():
+    foo = 10
+	print "Hello World!"
+\end{lstlisting}
